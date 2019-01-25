@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Tue Jan 02 17:48:36 2018
+# Process ID: 11624
+# Current directory: C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.runs/boat_down_synth_1
+# Command line: vivado.exe -log boat_down.vds -mode batch -messageDb vivado.pb -notrace -source boat_down.tcl
+# Log file: C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.runs/boat_down_synth_1/boat_down.vds
+# Journal file: C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.runs/boat_down_synth_1\vivado.jou
+#-----------------------------------------------------------
+source boat_down.tcl -notrace

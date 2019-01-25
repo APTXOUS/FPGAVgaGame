@@ -1,0 +1,474 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.sim/sim_1/behav
+vblk_mem_gen_0
+Z1 !s110 1514953470
+!i10b 1
+!s100 Z_cMEAVXII7SOU3ZM4NB60
+IeCdKMAloJ85dQ_G^6nCCj3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1514796059
+8../../../vga_game_cnm.srcs/sources_1/ip/blk_mem_gen_0_1/sim/blk_mem_gen_0.v
+F../../../vga_game_cnm.srcs/sources_1/ip/blk_mem_gen_0_1/sim/blk_mem_gen_0.v
+Z3 L0 56
+Z4 OP;L;10.4c;61
+r1
+!s85 0
+31
+Z5 !s108 1514953470.000000
+Z6 !s107 ../../../vga_game_cnm.srcs/sources_1/new/main.v|../../../vga_game_cnm.srcs/sources_1/new/game_main.v|../../../vga_game_cnm.srcs/sources_1/new/ps2.v|../../../vga_game_cnm.srcs/sources_1/new/seg.v|../../../vga_game_cnm.srcs/sources_1/ip/blk_mem_gen_0_1/sim/blk_mem_gen_0.v|../../../vga_game_cnm.srcs/sources_1/ip/boat_down/sim/boat_down.v|../../../vga_game_cnm.srcs/sources_1/ip/boat_left/sim/boat_left.v|../../../vga_game_cnm.srcs/sources_1/ip/boat_right/sim/boat_right.v|../../../vga_game_cnm.srcs/sources_1/ip/boat_up/sim/boat_up.v|../../../vga_game_cnm.srcs/sources_1/ip/boom_down/sim/boom_down.v|../../../vga_game_cnm.srcs/sources_1/ip/boom_left/sim/boom_left.v|../../../vga_game_cnm.srcs/sources_1/ip/boom_right/sim/boom_right.v|../../../vga_game_cnm.srcs/sources_1/ip/boom_up/sim/boom_up.v|../../../vga_game_cnm.srcs/sources_1/ip/rock_pic/sim/rock_pic.v|
+Z7 !s90 -64|-incr|-work|xil_defaultlib|../../../vga_game_cnm.srcs/sources_1/ip/rock_pic/sim/rock_pic.v|../../../vga_game_cnm.srcs/sources_1/ip/boom_up/sim/boom_up.v|../../../vga_game_cnm.srcs/sources_1/ip/boom_right/sim/boom_right.v|../../../vga_game_cnm.srcs/sources_1/ip/boom_left/sim/boom_left.v|../../../vga_game_cnm.srcs/sources_1/ip/boom_down/sim/boom_down.v|../../../vga_game_cnm.srcs/sources_1/ip/boat_up/sim/boat_up.v|../../../vga_game_cnm.srcs/sources_1/ip/boat_right/sim/boat_right.v|../../../vga_game_cnm.srcs/sources_1/ip/boat_left/sim/boat_left.v|../../../vga_game_cnm.srcs/sources_1/ip/boat_down/sim/boat_down.v|../../../vga_game_cnm.srcs/sources_1/ip/blk_mem_gen_0_1/sim/blk_mem_gen_0.v|../../../vga_game_cnm.srcs/sources_1/new/seg.v|../../../vga_game_cnm.srcs/sources_1/new/ps2.v|../../../vga_game_cnm.srcs/sources_1/new/game_main.v|../../../vga_game_cnm.srcs/sources_1/new/main.v|
+!i113 1
+Z8 o-work xil_defaultlib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vboat_down
+R1
+!i10b 1
+!s100 bk@6kHe??3=Scdh:lUcJa0
+IDUGkW[iDUDHN[I=P92?ze1
+R2
+R0
+w1514953179
+8../../../vga_game_cnm.srcs/sources_1/ip/boat_down/sim/boat_down.v
+F../../../vga_game_cnm.srcs/sources_1/ip/boat_down/sim/boat_down.v
+R3
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+vboat_left
+R1
+!i10b 1
+!s100 F:`YdTbS^`5Ki@j`UH0g_3
+ILN3mkChd5Im0j`9_HJc0l2
+R2
+R0
+w1514811729
+8../../../vga_game_cnm.srcs/sources_1/ip/boat_left/sim/boat_left.v
+F../../../vga_game_cnm.srcs/sources_1/ip/boat_left/sim/boat_left.v
+R3
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+vboat_right
+R1
+!i10b 1
+!s100 4X;?5]2@gB<13z=WLc`@:2
+IAWb=hm4TUcZMDIMU`gkzz2
+R2
+R0
+w1514801872
+8../../../vga_game_cnm.srcs/sources_1/ip/boat_right/sim/boat_right.v
+F../../../vga_game_cnm.srcs/sources_1/ip/boat_right/sim/boat_right.v
+R3
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+vboat_up
+R1
+!i10b 1
+!s100 QCO<AX=9eC:><Yff_`>hX1
+Ilz=N;5H6R@g:RL`oX1SZb0
+R2
+R0
+w1514811615
+8../../../vga_game_cnm.srcs/sources_1/ip/boat_up/sim/boat_up.v
+F../../../vga_game_cnm.srcs/sources_1/ip/boat_up/sim/boat_up.v
+R3
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+vboom_down
+R1
+!i10b 1
+!s100 ik;W`;@?FEBMeQYfJLKBo0
+IR]50kHEMfgO^Cl2QHY5592
+R2
+R0
+w1514814701
+8../../../vga_game_cnm.srcs/sources_1/ip/boom_down/sim/boom_down.v
+F../../../vga_game_cnm.srcs/sources_1/ip/boom_down/sim/boom_down.v
+R3
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+vboom_left
+R1
+!i10b 1
+!s100 >HnD<GM:APXQ2YcLhzCA@2
+IFzmkKYZoagFDmB_XoJWH20
+R2
+R0
+w1514830917
+8../../../vga_game_cnm.srcs/sources_1/ip/boom_left/sim/boom_left.v
+F../../../vga_game_cnm.srcs/sources_1/ip/boom_left/sim/boom_left.v
+R3
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+vboom_right
+R1
+!i10b 1
+!s100 BV=nUo_ISnfjac0XO_61X2
+IfiTHjUa88J0kmG=WIXoU60
+R2
+R0
+w1514830974
+8../../../vga_game_cnm.srcs/sources_1/ip/boom_right/sim/boom_right.v
+F../../../vga_game_cnm.srcs/sources_1/ip/boom_right/sim/boom_right.v
+R3
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+vboom_up
+R1
+!i10b 1
+!s100 iMEOcG?CIPhMTJliUZ?d@0
+Ih>J^b@JeXS=a_lO4E;hKP1
+R2
+R0
+w1514824421
+8../../../vga_game_cnm.srcs/sources_1/ip/boom_up/sim/boom_up.v
+F../../../vga_game_cnm.srcs/sources_1/ip/boom_up/sim/boom_up.v
+R3
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+vDivid
+R1
+!i10b 1
+!s100 Fk:PCYm_J43m7BJ;N=1Nf2
+I`E61Ta@QQ0=ndi2m2E0=i2
+R2
+R0
+Z9 w1514953088
+Z10 8../../../vga_game_cnm.srcs/sources_1/new/game_main.v
+Z11 F../../../vga_game_cnm.srcs/sources_1/new/game_main.v
+L0 51
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+n@divid
+vDivider
+R1
+!i10b 1
+!s100 CnY6cj3GDVAlz34PSinkU2
+ICg@WLof9H:VF^P5Q_7BN>1
+R2
+R0
+R9
+R10
+R11
+L0 24
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+n@divider
+vKeyfun
+R1
+!i10b 1
+!s100 FLgQaNRBNU_IoEDWzo?Nh2
+IPf5lPIhF1]RAij:Nj:7ob3
+R2
+R0
+w1514914573
+8../../../vga_game_cnm.srcs/sources_1/new/ps2.v
+F../../../vga_game_cnm.srcs/sources_1/new/ps2.v
+Z12 L0 23
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+n@keyfun
+vmain
+R1
+!i10b 1
+!s100 z=RMd9h8mLD69j;2O7<TF0
+IRWXGdT_PD1_00UVH_XOYY2
+R2
+R0
+w1514953460
+8../../../vga_game_cnm.srcs/sources_1/new/main.v
+F../../../vga_game_cnm.srcs/sources_1/new/main.v
+R12
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+vrock_pic
+R1
+!i10b 1
+!s100 HD?l`Sil1KzTMX;EN`hLj1
+IY3@7CAMaJig;Ub88n6Cbi0
+R2
+R0
+w1514800891
+8../../../vga_game_cnm.srcs/sources_1/ip/rock_pic/sim/rock_pic.v
+F../../../vga_game_cnm.srcs/sources_1/ip/rock_pic/sim/rock_pic.v
+R3
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+vseg7decimal
+R1
+!i10b 1
+!s100 <A4UR6]OHh^;oeh^eBez52
+I;@8>;HL:Oi]o;ge4MlSZe2
+R2
+R0
+w1514950720
+8../../../vga_game_cnm.srcs/sources_1/new/seg.v
+F../../../vga_game_cnm.srcs/sources_1/new/seg.v
+L0 21
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+vxpm_memory_base
+Z13 DXx6 sv_std 3 std 0 22 WmjPaeP=7F5?QFXzJ>D[Q2
+Z14 !s110 1514953469
+!i10b 1
+!s100 ALkkJ<[dEY[i_AnYEEMcV1
+I5a1m^=;aoChRSJ1J[EioF3
+R2
+!s105 xpm_memory_base_sv_unit
+S1
+R0
+w1465086321
+8C:/Xilinx/Vivado/2016.2/data/ip/xpm/xpm_memory/hdl/xpm_memory_base.sv
+FC:/Xilinx/Vivado/2016.2/data/ip/xpm/xpm_memory/hdl/xpm_memory_base.sv
+L0 57
+R4
+r1
+!s85 0
+31
+Z15 !s108 1514953469.000000
+Z16 !s107 C:/Xilinx/Vivado/2016.2/data/ip/xpm/xpm_memory/hdl/xpm_memory_tdpram.sv|C:/Xilinx/Vivado/2016.2/data/ip/xpm/xpm_memory/hdl/xpm_memory_sprom.sv|C:/Xilinx/Vivado/2016.2/data/ip/xpm/xpm_memory/hdl/xpm_memory_spram.sv|C:/Xilinx/Vivado/2016.2/data/ip/xpm/xpm_memory/hdl/xpm_memory_sdpram.sv|C:/Xilinx/Vivado/2016.2/data/ip/xpm/xpm_memory/hdl/xpm_memory_dprom.sv|C:/Xilinx/Vivado/2016.2/data/ip/xpm/xpm_memory/hdl/xpm_memory_dpdistram.sv|C:/Xilinx/Vivado/2016.2/data/ip/xpm/xpm_memory/hdl/xpm_memory_base.sv|
+Z17 !s90 -64|-incr|-sv|-work|xil_defaultlib|C:/Xilinx/Vivado/2016.2/data/ip/xpm/xpm_memory/hdl/xpm_memory_base.sv|C:/Xilinx/Vivado/2016.2/data/ip/xpm/xpm_memory/hdl/xpm_memory_dpdistram.sv|C:/Xilinx/Vivado/2016.2/data/ip/xpm/xpm_memory/hdl/xpm_memory_dprom.sv|C:/Xilinx/Vivado/2016.2/data/ip/xpm/xpm_memory/hdl/xpm_memory_sdpram.sv|C:/Xilinx/Vivado/2016.2/data/ip/xpm/xpm_memory/hdl/xpm_memory_spram.sv|C:/Xilinx/Vivado/2016.2/data/ip/xpm/xpm_memory/hdl/xpm_memory_sprom.sv|C:/Xilinx/Vivado/2016.2/data/ip/xpm/xpm_memory/hdl/xpm_memory_tdpram.sv|
+!i113 1
+Z18 o-sv -work xil_defaultlib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vxpm_memory_dpdistram
+R13
+R14
+!i10b 1
+!s100 2LHiB`CdIUkO[Sc9:E=iZ1
+I>o[91@o7JG4MoiUOa6_Bz0
+R2
+!s105 xpm_memory_dpdistram_sv_unit
+S1
+R0
+Z19 w1465086322
+8C:/Xilinx/Vivado/2016.2/data/ip/xpm/xpm_memory/hdl/xpm_memory_dpdistram.sv
+FC:/Xilinx/Vivado/2016.2/data/ip/xpm/xpm_memory/hdl/xpm_memory_dpdistram.sv
+R3
+R4
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 1
+R18
+vxpm_memory_dprom
+R13
+R14
+!i10b 1
+!s100 F22IH2KkLL<fQWHU]>`9X1
+IIWU9PVJFhGcJ:H?LPccIQ3
+R2
+!s105 xpm_memory_dprom_sv_unit
+S1
+R0
+R19
+8C:/Xilinx/Vivado/2016.2/data/ip/xpm/xpm_memory/hdl/xpm_memory_dprom.sv
+FC:/Xilinx/Vivado/2016.2/data/ip/xpm/xpm_memory/hdl/xpm_memory_dprom.sv
+R3
+R4
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 1
+R18
+vxpm_memory_sdpram
+R13
+R14
+!i10b 1
+!s100 f8gdck?OmlK:8OBRZSdbR0
+I1N32WczEnCd:SN57GQ5:>3
+R2
+!s105 xpm_memory_sdpram_sv_unit
+S1
+R0
+R19
+8C:/Xilinx/Vivado/2016.2/data/ip/xpm/xpm_memory/hdl/xpm_memory_sdpram.sv
+FC:/Xilinx/Vivado/2016.2/data/ip/xpm/xpm_memory/hdl/xpm_memory_sdpram.sv
+R3
+R4
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 1
+R18
+vxpm_memory_spram
+R13
+R14
+!i10b 1
+!s100 dkBXkn^U]nf]Wfl;j@iLR0
+IKHZPWolQP:5ojm@;=kdEh2
+R2
+!s105 xpm_memory_spram_sv_unit
+S1
+R0
+R19
+8C:/Xilinx/Vivado/2016.2/data/ip/xpm/xpm_memory/hdl/xpm_memory_spram.sv
+FC:/Xilinx/Vivado/2016.2/data/ip/xpm/xpm_memory/hdl/xpm_memory_spram.sv
+R3
+R4
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 1
+R18
+vxpm_memory_sprom
+R13
+R14
+!i10b 1
+!s100 05=F:GOZ3lGnSTPj?<=kl1
+IYR0ZYGPa[M?l>AB2[::@?1
+R2
+!s105 xpm_memory_sprom_sv_unit
+S1
+R0
+R19
+8C:/Xilinx/Vivado/2016.2/data/ip/xpm/xpm_memory/hdl/xpm_memory_sprom.sv
+FC:/Xilinx/Vivado/2016.2/data/ip/xpm/xpm_memory/hdl/xpm_memory_sprom.sv
+R3
+R4
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 1
+R18
+vxpm_memory_tdpram
+R13
+R14
+!i10b 1
+!s100 B]=nJbU3aV0?4PLe7TcSP1
+IO^7;e?^T1iZC=P6O6;1KN3
+R2
+!s105 xpm_memory_tdpram_sv_unit
+S1
+R0
+R19
+8C:/Xilinx/Vivado/2016.2/data/ip/xpm/xpm_memory/hdl/xpm_memory_tdpram.sv
+FC:/Xilinx/Vivado/2016.2/data/ip/xpm/xpm_memory/hdl/xpm_memory_tdpram.sv
+R3
+R4
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 1
+R18

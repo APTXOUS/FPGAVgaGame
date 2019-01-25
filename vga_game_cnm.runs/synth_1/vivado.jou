@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Wed Jan 03 22:55:32 2018
+# Process ID: 16400
+# Current directory: C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.runs/synth_1
+# Command line: vivado.exe -log game_main.vds -mode batch -messageDb vivado.pb -notrace -source game_main.tcl
+# Log file: C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.runs/synth_1/game_main.vds
+# Journal file: C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source game_main.tcl -notrace

@@ -1,0 +1,932 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Wed Jan 03 22:55:32 2018
+# Process ID: 16400
+# Current directory: C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.runs/synth_1
+# Command line: vivado.exe -log game_main.vds -mode batch -messageDb vivado.pb -notrace -source game_main.tcl
+# Log file: C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.runs/synth_1/game_main.vds
+# Journal file: C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source game_main.tcl -notrace
+Command: synth_design -top game_main -part xc7a100tcsg324-3
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 16240 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 305.297 ; gain = 98.652
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'game_main' [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/sources_1/new/game_main.v:78]
+	Parameter sea bound to: 8'b00000000 
+	Parameter island bound to: 8'b00000001 
+	Parameter boatup bound to: 8'b00000010 
+	Parameter boatdown bound to: 8'b00000011 
+	Parameter boatleft bound to: 8'b00000100 
+	Parameter boatright bound to: 8'b00000101 
+	Parameter boomright bound to: 8'b00000110 
+	Parameter boomleft bound to: 8'b00000111 
+	Parameter boomup bound to: 8'b00001000 
+	Parameter boomdown bound to: 8'b00001001 
+	Parameter H_pos bound to: 16 - type: integer 
+	Parameter H_neg bound to: 48 - type: integer 
+	Parameter H_vri bound to: 640 - type: integer 
+	Parameter H_syn bound to: 96 - type: integer 
+	Parameter V_pos bound to: 10 - type: integer 
+	Parameter V_neg bound to: 33 - type: integer 
+	Parameter V_vri bound to: 480 - type: integer 
+	Parameter V_syn bound to: 2 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'Divid' [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/sources_1/new/game_main.v:51]
+	Parameter divide_n bound to: 2300000 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'Divid' (1#1) [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/sources_1/new/game_main.v:51]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/sources_1/new/game_main.v:174]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/sources_1/new/game_main.v:204]
+WARNING: [Synth 8-567] referenced signal 'data' should be on the sensitivity list [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/sources_1/new/game_main.v:296]
+WARNING: [Synth 8-567] referenced signal 'map' should be on the sensitivity list [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/sources_1/new/game_main.v:296]
+WARNING: [Synth 8-567] referenced signal 'i' should be on the sensitivity list [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/sources_1/new/game_main.v:296]
+INFO: [Synth 8-638] synthesizing module 'blk_mem_gen_0' [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.runs/synth_1/.Xil/Vivado-16400-APTXTION/realtime/blk_mem_gen_0_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'blk_mem_gen_0' (2#1) [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.runs/synth_1/.Xil/Vivado-16400-APTXTION/realtime/blk_mem_gen_0_stub.v:6]
+INFO: [Synth 8-638] synthesizing module 'rock_pic' [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.runs/synth_1/.Xil/Vivado-16400-APTXTION/realtime/rock_pic_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'rock_pic' (3#1) [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.runs/synth_1/.Xil/Vivado-16400-APTXTION/realtime/rock_pic_stub.v:6]
+INFO: [Synth 8-638] synthesizing module 'boat_right' [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.runs/synth_1/.Xil/Vivado-16400-APTXTION/realtime/boat_right_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'boat_right' (4#1) [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.runs/synth_1/.Xil/Vivado-16400-APTXTION/realtime/boat_right_stub.v:6]
+INFO: [Synth 8-638] synthesizing module 'boat_up' [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.runs/synth_1/.Xil/Vivado-16400-APTXTION/realtime/boat_up_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'boat_up' (5#1) [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.runs/synth_1/.Xil/Vivado-16400-APTXTION/realtime/boat_up_stub.v:6]
+INFO: [Synth 8-638] synthesizing module 'boat_down' [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.runs/synth_1/.Xil/Vivado-16400-APTXTION/realtime/boat_down_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'boat_down' (6#1) [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.runs/synth_1/.Xil/Vivado-16400-APTXTION/realtime/boat_down_stub.v:6]
+INFO: [Synth 8-638] synthesizing module 'boat_left' [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.runs/synth_1/.Xil/Vivado-16400-APTXTION/realtime/boat_left_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'boat_left' (7#1) [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.runs/synth_1/.Xil/Vivado-16400-APTXTION/realtime/boat_left_stub.v:6]
+INFO: [Synth 8-638] synthesizing module 'boom_down' [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.runs/synth_1/.Xil/Vivado-16400-APTXTION/realtime/boom_down_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'boom_down' (8#1) [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.runs/synth_1/.Xil/Vivado-16400-APTXTION/realtime/boom_down_stub.v:6]
+INFO: [Synth 8-638] synthesizing module 'boom_up' [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.runs/synth_1/.Xil/Vivado-16400-APTXTION/realtime/boom_up_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'boom_up' (9#1) [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.runs/synth_1/.Xil/Vivado-16400-APTXTION/realtime/boom_up_stub.v:6]
+INFO: [Synth 8-638] synthesizing module 'boom_left' [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.runs/synth_1/.Xil/Vivado-16400-APTXTION/realtime/boom_left_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'boom_left' (10#1) [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.runs/synth_1/.Xil/Vivado-16400-APTXTION/realtime/boom_left_stub.v:6]
+INFO: [Synth 8-638] synthesizing module 'boom_right' [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.runs/synth_1/.Xil/Vivado-16400-APTXTION/realtime/boom_right_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'boom_right' (11#1) [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.runs/synth_1/.Xil/Vivado-16400-APTXTION/realtime/boom_right_stub.v:6]
+WARNING: [Synth 8-387] label required on module instance [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/sources_1/new/game_main.v:431]
+INFO: [Synth 8-638] synthesizing module 'Divider' [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/sources_1/new/game_main.v:24]
+	Parameter divide_n bound to: 2 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'Divider' (12#1) [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/sources_1/new/game_main.v:24]
+WARNING: [Synth 8-567] referenced signal 'RED' should be on the sensitivity list [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/sources_1/new/game_main.v:451]
+WARNING: [Synth 8-567] referenced signal 'GREEN' should be on the sensitivity list [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/sources_1/new/game_main.v:451]
+WARNING: [Synth 8-567] referenced signal 'BLUE' should be on the sensitivity list [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/sources_1/new/game_main.v:451]
+WARNING: [Synth 8-5788] Register currentboom_reg in module game_main is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/sources_1/new/game_main.v:172]
+WARNING: [Synth 8-5788] Register map_reg[767] in module game_main is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/sources_1/new/game_main.v:178]
+WARNING: [Synth 8-5788] Register map_reg[766] in module game_main is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/sources_1/new/game_main.v:178]
+WARNING: [Synth 8-5788] Register map_reg[765] in module game_main is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/sources_1/new/game_main.v:178]
+WARNING: [Synth 8-5788] Register map_reg[764] in module game_main is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/sources_1/new/game_main.v:178]
+WARNING: [Synth 8-5788] Register map_reg[763] in module game_main is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/sources_1/new/game_main.v:178]
+WARNING: [Synth 8-5788] Register map_reg[762] in module game_main is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/sources_1/new/game_main.v:178]
+WARNING: [Synth 8-5788] Register map_reg[761] in module game_main is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/sources_1/new/game_main.v:178]
+WARNING: [Synth 8-5788] Register map_reg[760] in module game_main is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/sources_1/new/game_main.v:178]
+WARNING: [Synth 8-5788] Register map_reg[759] in module game_main is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/sources_1/new/game_main.v:178]
+WARNING: [Synth 8-5788] Register map_reg[758] in module game_main is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/sources_1/new/game_main.v:178]
+WARNING: [Synth 8-5788] Register map_reg[757] in module game_main is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/sources_1/new/game_main.v:178]
+WARNING: [Synth 8-5788] Register map_reg[756] in module game_main is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/sources_1/new/game_main.v:178]
+WARNING: [Synth 8-5788] Register map_reg[755] in module game_main is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/sources_1/new/game_main.v:178]
+WARNING: [Synth 8-5788] Register map_reg[754] in module game_main is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/sources_1/new/game_main.v:178]
+WARNING: [Synth 8-5788] Register map_reg[753] in module game_main is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/sources_1/new/game_main.v:178]
+WARNING: [Synth 8-5788] Register map_reg[752] in module game_main is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/sources_1/new/game_main.v:178]
+WARNING: [Synth 8-5788] Register map_reg[751] in module game_main is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/sources_1/new/game_main.v:178]
+WARNING: [Synth 8-5788] Register map_reg[750] in module game_main is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/sources_1/new/game_main.v:178]
+WARNING: [Synth 8-5788] Register map_reg[749] in module game_main is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/sources_1/new/game_main.v:178]
+WARNING: [Synth 8-5788] Register map_reg[748] in module game_main is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/sources_1/new/game_main.v:178]
+WARNING: [Synth 8-5788] Register map_reg[747] in module game_main is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/sources_1/new/game_main.v:178]
+WARNING: [Synth 8-5788] Register map_reg[746] in module game_main is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/sources_1/new/game_main.v:178]
+WARNING: [Synth 8-5788] Register map_reg[745] in module game_main is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/sources_1/new/game_main.v:178]
+WARNING: [Synth 8-5788] Register map_reg[744] in module game_main is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/sources_1/new/game_main.v:178]
+WARNING: [Synth 8-5788] Register map_reg[743] in module game_main is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/sources_1/new/game_main.v:178]
+WARNING: [Synth 8-5788] Register map_reg[742] in module game_main is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/sources_1/new/game_main.v:178]
+WARNING: [Synth 8-5788] Register map_reg[741] in module game_main is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/sources_1/new/game_main.v:178]
+WARNING: [Synth 8-5788] Register map_reg[740] in module game_main is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/sources_1/new/game_main.v:178]
+WARNING: [Synth 8-5788] Register map_reg[739] in module game_main is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/sources_1/new/game_main.v:178]
+WARNING: [Synth 8-5788] Register map_reg[738] in module game_main is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/sources_1/new/game_main.v:178]
+WARNING: [Synth 8-5788] Register map_reg[737] in module game_main is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/sources_1/new/game_main.v:178]
+WARNING: [Synth 8-5788] Register map_reg[736] in module game_main is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/sources_1/new/game_main.v:178]
+WARNING: [Synth 8-5788] Register map_reg[735] in module game_main is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/sources_1/new/game_main.v:178]
+WARNING: [Synth 8-5788] Register map_reg[734] in module game_main is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/sources_1/new/game_main.v:178]
+WARNING: [Synth 8-5788] Register map_reg[733] in module game_main is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/sources_1/new/game_main.v:178]
+WARNING: [Synth 8-5788] Register map_reg[732] in module game_main is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/sources_1/new/game_main.v:178]
+WARNING: [Synth 8-5788] Register map_reg[731] in module game_main is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/sources_1/new/game_main.v:178]
+WARNING: [Synth 8-5788] Register map_reg[730] in module game_main is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/sources_1/new/game_main.v:178]
+WARNING: [Synth 8-5788] Register map_reg[729] in module game_main is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/sources_1/new/game_main.v:178]
+WARNING: [Synth 8-5788] Register map_reg[728] in module game_main is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/sources_1/new/game_main.v:178]
+WARNING: [Synth 8-5788] Register map_reg[727] in module game_main is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/sources_1/new/game_main.v:178]
+WARNING: [Synth 8-5788] Register map_reg[726] in module game_main is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/sources_1/new/game_main.v:178]
+WARNING: [Synth 8-5788] Register map_reg[725] in module game_main is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/sources_1/new/game_main.v:178]
+WARNING: [Synth 8-5788] Register map_reg[724] in module game_main is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/sources_1/new/game_main.v:178]
+WARNING: [Synth 8-5788] Register map_reg[723] in module game_main is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/sources_1/new/game_main.v:178]
+WARNING: [Synth 8-5788] Register map_reg[722] in module game_main is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/sources_1/new/game_main.v:178]
+WARNING: [Synth 8-5788] Register map_reg[721] in module game_main is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/sources_1/new/game_main.v:178]
+WARNING: [Synth 8-5788] Register map_reg[720] in module game_main is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/sources_1/new/game_main.v:178]
+WARNING: [Synth 8-5788] Register map_reg[719] in module game_main is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/sources_1/new/game_main.v:178]
+WARNING: [Synth 8-5788] Register map_reg[718] in module game_main is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/sources_1/new/game_main.v:178]
+WARNING: [Synth 8-5788] Register map_reg[717] in module game_main is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/sources_1/new/game_main.v:178]
+WARNING: [Synth 8-5788] Register map_reg[716] in module game_main is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/sources_1/new/game_main.v:178]
+WARNING: [Synth 8-5788] Register map_reg[715] in module game_main is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/sources_1/new/game_main.v:178]
+WARNING: [Synth 8-5788] Register map_reg[714] in module game_main is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/sources_1/new/game_main.v:178]
+WARNING: [Synth 8-5788] Register map_reg[713] in module game_main is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/sources_1/new/game_main.v:178]
+WARNING: [Synth 8-5788] Register map_reg[712] in module game_main is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/sources_1/new/game_main.v:178]
+WARNING: [Synth 8-5788] Register map_reg[711] in module game_main is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/sources_1/new/game_main.v:178]
+WARNING: [Synth 8-5788] Register map_reg[710] in module game_main is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/sources_1/new/game_main.v:178]
+WARNING: [Synth 8-5788] Register map_reg[709] in module game_main is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/sources_1/new/game_main.v:178]
+WARNING: [Synth 8-5788] Register map_reg[708] in module game_main is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/sources_1/new/game_main.v:178]
+WARNING: [Synth 8-5788] Register map_reg[707] in module game_main is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/sources_1/new/game_main.v:178]
+WARNING: [Synth 8-5788] Register map_reg[706] in module game_main is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/sources_1/new/game_main.v:178]
+WARNING: [Synth 8-5788] Register map_reg[705] in module game_main is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/sources_1/new/game_main.v:178]
+WARNING: [Synth 8-5788] Register map_reg[704] in module game_main is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/sources_1/new/game_main.v:178]
+WARNING: [Synth 8-5788] Register map_reg[703] in module game_main is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/sources_1/new/game_main.v:178]
+WARNING: [Synth 8-5788] Register map_reg[702] in module game_main is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/sources_1/new/game_main.v:178]
+WARNING: [Synth 8-5788] Register map_reg[701] in module game_main is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/sources_1/new/game_main.v:178]
+WARNING: [Synth 8-5788] Register map_reg[700] in module game_main is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/sources_1/new/game_main.v:178]
+WARNING: [Synth 8-5788] Register map_reg[699] in module game_main is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/sources_1/new/game_main.v:178]
+WARNING: [Synth 8-5788] Register map_reg[698] in module game_main is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/sources_1/new/game_main.v:178]
+WARNING: [Synth 8-5788] Register map_reg[697] in module game_main is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/sources_1/new/game_main.v:178]
+WARNING: [Synth 8-5788] Register map_reg[696] in module game_main is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/sources_1/new/game_main.v:178]
+WARNING: [Synth 8-5788] Register map_reg[695] in module game_main is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/sources_1/new/game_main.v:178]
+WARNING: [Synth 8-5788] Register map_reg[694] in module game_main is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/sources_1/new/game_main.v:178]
+WARNING: [Synth 8-5788] Register map_reg[693] in module game_main is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/sources_1/new/game_main.v:178]
+WARNING: [Synth 8-5788] Register map_reg[692] in module game_main is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/sources_1/new/game_main.v:178]
+WARNING: [Synth 8-5788] Register map_reg[691] in module game_main is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/sources_1/new/game_main.v:178]
+WARNING: [Synth 8-5788] Register map_reg[690] in module game_main is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/sources_1/new/game_main.v:178]
+WARNING: [Synth 8-5788] Register map_reg[689] in module game_main is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/sources_1/new/game_main.v:178]
+WARNING: [Synth 8-5788] Register map_reg[688] in module game_main is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/sources_1/new/game_main.v:178]
+WARNING: [Synth 8-5788] Register map_reg[687] in module game_main is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/sources_1/new/game_main.v:178]
+WARNING: [Synth 8-5788] Register map_reg[686] in module game_main is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/sources_1/new/game_main.v:178]
+WARNING: [Synth 8-5788] Register map_reg[685] in module game_main is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/sources_1/new/game_main.v:178]
+WARNING: [Synth 8-5788] Register map_reg[684] in module game_main is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/sources_1/new/game_main.v:178]
+WARNING: [Synth 8-5788] Register map_reg[683] in module game_main is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/sources_1/new/game_main.v:178]
+WARNING: [Synth 8-5788] Register map_reg[682] in module game_main is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/sources_1/new/game_main.v:178]
+WARNING: [Synth 8-5788] Register map_reg[681] in module game_main is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/sources_1/new/game_main.v:178]
+WARNING: [Synth 8-5788] Register map_reg[680] in module game_main is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/sources_1/new/game_main.v:178]
+WARNING: [Synth 8-5788] Register map_reg[679] in module game_main is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/sources_1/new/game_main.v:178]
+WARNING: [Synth 8-5788] Register map_reg[678] in module game_main is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/sources_1/new/game_main.v:178]
+WARNING: [Synth 8-5788] Register map_reg[677] in module game_main is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/sources_1/new/game_main.v:178]
+WARNING: [Synth 8-5788] Register map_reg[676] in module game_main is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/sources_1/new/game_main.v:178]
+WARNING: [Synth 8-5788] Register map_reg[675] in module game_main is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/sources_1/new/game_main.v:178]
+WARNING: [Synth 8-5788] Register map_reg[674] in module game_main is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/sources_1/new/game_main.v:178]
+WARNING: [Synth 8-5788] Register map_reg[673] in module game_main is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/sources_1/new/game_main.v:178]
+WARNING: [Synth 8-5788] Register map_reg[672] in module game_main is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/sources_1/new/game_main.v:178]
+WARNING: [Synth 8-5788] Register map_reg[671] in module game_main is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/sources_1/new/game_main.v:178]
+WARNING: [Synth 8-5788] Register map_reg[670] in module game_main is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/sources_1/new/game_main.v:178]
+WARNING: [Synth 8-5788] Register map_reg[669] in module game_main is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/sources_1/new/game_main.v:178]
+INFO: [Common 17-14] Message 'Synth 8-5788' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+WARNING: [Synth 8-3848] Net data[10] in module/entity game_main does not have driver. [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/sources_1/new/game_main.v:131]
+INFO: [Synth 8-256] done synthesizing module 'game_main' (13#1) [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/sources_1/new/game_main.v:78]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:31:14 ; elapsed = 00:31:44 . Memory (MB): peak = 654.547 ; gain = 447.902
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:31:17 ; elapsed = 00:31:48 . Memory (MB): peak = 654.547 ; gain = 447.902
+---------------------------------------------------------------------------------
+WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'blk_mem_gen_0' instantiated as 'sea_pic' [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/sources_1/new/game_main.v:310]
+WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'boat_down' instantiated as 'boat_d' [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/sources_1/new/game_main.v:357]
+WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'boat_left' instantiated as 'boat_l' [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/sources_1/new/game_main.v:368]
+WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'boat_right' instantiated as 'boat_r' [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/sources_1/new/game_main.v:334]
+WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'boat_up' instantiated as 'boat_u' [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/sources_1/new/game_main.v:346]
+WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'boom_down' instantiated as 'boom_d' [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/sources_1/new/game_main.v:379]
+WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'boom_left' instantiated as 'boom_l' [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/sources_1/new/game_main.v:403]
+WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'boom_right' instantiated as 'boom_r' [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/sources_1/new/game_main.v:414]
+WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'boom_up' instantiated as 'boom_u' [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/sources_1/new/game_main.v:391]
+WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'rock_pic' instantiated as 'rock' [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/sources_1/new/game_main.v:322]
+INFO: [Device 21-403] Loading part xc7a100tcsg324-3
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.runs/synth_1/.Xil/Vivado-16400-APTXTION/dcp/blk_mem_gen_0_in_context.xdc] for cell 'sea_pic'
+Finished Parsing XDC File [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.runs/synth_1/.Xil/Vivado-16400-APTXTION/dcp/blk_mem_gen_0_in_context.xdc] for cell 'sea_pic'
+Parsing XDC File [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.runs/synth_1/.Xil/Vivado-16400-APTXTION/dcp_2/rock_pic_in_context.xdc] for cell 'rock'
+Finished Parsing XDC File [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.runs/synth_1/.Xil/Vivado-16400-APTXTION/dcp_2/rock_pic_in_context.xdc] for cell 'rock'
+Parsing XDC File [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.runs/synth_1/.Xil/Vivado-16400-APTXTION/dcp_3/boat_right_in_context.xdc] for cell 'boat_r'
+Finished Parsing XDC File [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.runs/synth_1/.Xil/Vivado-16400-APTXTION/dcp_3/boat_right_in_context.xdc] for cell 'boat_r'
+Parsing XDC File [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.runs/synth_1/.Xil/Vivado-16400-APTXTION/dcp_4/boat_up_in_context.xdc] for cell 'boat_u'
+Finished Parsing XDC File [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.runs/synth_1/.Xil/Vivado-16400-APTXTION/dcp_4/boat_up_in_context.xdc] for cell 'boat_u'
+Parsing XDC File [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.runs/synth_1/.Xil/Vivado-16400-APTXTION/dcp_5/boat_left_in_context.xdc] for cell 'boat_l'
+Finished Parsing XDC File [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.runs/synth_1/.Xil/Vivado-16400-APTXTION/dcp_5/boat_left_in_context.xdc] for cell 'boat_l'
+Parsing XDC File [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.runs/synth_1/.Xil/Vivado-16400-APTXTION/dcp_6/boat_down_in_context.xdc] for cell 'boat_d'
+Finished Parsing XDC File [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.runs/synth_1/.Xil/Vivado-16400-APTXTION/dcp_6/boat_down_in_context.xdc] for cell 'boat_d'
+Parsing XDC File [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.runs/synth_1/.Xil/Vivado-16400-APTXTION/dcp_7/boom_down_in_context.xdc] for cell 'boom_d'
+Finished Parsing XDC File [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.runs/synth_1/.Xil/Vivado-16400-APTXTION/dcp_7/boom_down_in_context.xdc] for cell 'boom_d'
+Parsing XDC File [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.runs/synth_1/.Xil/Vivado-16400-APTXTION/dcp_8/boom_up_in_context.xdc] for cell 'boom_u'
+Finished Parsing XDC File [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.runs/synth_1/.Xil/Vivado-16400-APTXTION/dcp_8/boom_up_in_context.xdc] for cell 'boom_u'
+Parsing XDC File [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.runs/synth_1/.Xil/Vivado-16400-APTXTION/dcp_9/boom_left_in_context.xdc] for cell 'boom_l'
+Finished Parsing XDC File [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.runs/synth_1/.Xil/Vivado-16400-APTXTION/dcp_9/boom_left_in_context.xdc] for cell 'boom_l'
+Parsing XDC File [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.runs/synth_1/.Xil/Vivado-16400-APTXTION/dcp_10/boom_right_in_context.xdc] for cell 'boom_r'
+Finished Parsing XDC File [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.runs/synth_1/.Xil/Vivado-16400-APTXTION/dcp_10/boom_right_in_context.xdc] for cell 'boom_r'
+Parsing XDC File [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/constrs_1/new/vga.xdc]
+Finished Parsing XDC File [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/constrs_1/new/vga.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/constrs_1/new/vga.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/game_main_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/game_main_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.031 . Memory (MB): peak = 930.102 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:31:35 ; elapsed = 00:32:07 . Memory (MB): peak = 949.426 ; gain = 742.781
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5580] Multithreading enabled for synth_design using a maximum of 2 processes.
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-3
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:31:35 ; elapsed = 00:32:07 . Memory (MB): peak = 949.426 ; gain = 742.781
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:31:36 ; elapsed = 00:32:08 . Memory (MB): peak = 949.426 ; gain = 742.781
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5545] ROM "i" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "O_CLK" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "i" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "O_CLK" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/sources_1/new/game_main.v:204]
+INFO: [Synth 8-5545] ROM "map_reg[767]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "map_reg[767]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "map_reg[767]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "map_reg[767]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "map_reg[767]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "map_reg[767]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "map_reg[767]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "map_reg[766]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "map_reg[765]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "map_reg[764]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "map_reg[763]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "map_reg[762]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "map_reg[761]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "map_reg[760]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "map_reg[759]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "map_reg[758]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "map_reg[757]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "map_reg[756]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "map_reg[755]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "map_reg[754]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "map_reg[753]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "map_reg[752]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "map_reg[751]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "map_reg[750]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "map_reg[749]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "map_reg[748]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "map_reg[747]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "map_reg[746]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "map_reg[745]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "map_reg[744]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "map_reg[743]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "map_reg[742]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "map_reg[741]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "map_reg[740]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "map_reg[739]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "map_reg[738]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "map_reg[737]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "map_reg[736]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "map_reg[735]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "map_reg[734]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "map_reg[733]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "map_reg[732]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "map_reg[731]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "map_reg[730]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "map_reg[729]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "map_reg[728]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "map_reg[727]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "map_reg[726]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "map_reg[725]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "map_reg[724]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "map_reg[723]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "map_reg[722]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "map_reg[721]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "map_reg[720]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "map_reg[719]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "map_reg[718]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "map_reg[717]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "map_reg[716]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "map_reg[715]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "map_reg[714]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "map_reg[713]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "map_reg[712]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "map_reg[711]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "map_reg[710]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "map_reg[709]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "map_reg[708]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "map_reg[707]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "map_reg[706]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "map_reg[705]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "map_reg[704]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "map_reg[703]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "map_reg[702]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "map_reg[701]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "map_reg[700]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "map_reg[699]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "map_reg[698]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "map_reg[697]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "map_reg[696]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "map_reg[695]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "map_reg[694]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "map_reg[693]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "map_reg[692]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "map_reg[691]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "map_reg[690]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "map_reg[689]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "map_reg[688]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "map_reg[687]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "map_reg[686]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "map_reg[685]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "map_reg[684]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "map_reg[683]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "map_reg[682]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "map_reg[681]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "map_reg[680]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "map_reg[679]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "map_reg[678]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Common 17-14] Message 'Synth 8-5545' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-5546] ROM "y" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-327] inferring latch for variable 'RED_reg' [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/sources_1/new/game_main.v:304]
+WARNING: [Synth 8-327] inferring latch for variable 'GREEN_reg' [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/sources_1/new/game_main.v:303]
+WARNING: [Synth 8-327] inferring latch for variable 'BLUE_reg' [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/sources_1/new/game_main.v:302]
+WARNING: [Synth 8-327] inferring latch for variable 'raddr_reg' [C:/Users/youyaoyin/vga_game_cnm/vga_game_cnm.srcs/sources_1/new/game_main.v:301]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:35:42 ; elapsed = 00:36:37 . Memory (MB): peak = 1080.781 ; gain = 874.137
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+----------------+------------+----------+
+|      |RTL Partition   |Replication |Instances |
++------+----------------+------------+----------+
+|1     |game_main__GB0  |           1|     44705|
+|2     |game_main__GB1  |           1|     34740|
+|3     |game_main__GB2  |           1|     21193|
+|4     |game_main__GB3  |           1|     15421|
+|5     |game_main__GB4  |           1|     35118|
+|6     |game_main__GB5  |           1|     44856|
+|7     |game_main__GB6  |           1|     54269|
+|8     |game_main__GB7  |           1|     52104|
+|9     |game_main__GB8  |           1|     15084|
+|10    |game_main__GB9  |           1|     64724|
+|11    |game_main__GB10 |           1|     18664|
+|12    |game_main__GB11 |           1|     44477|
+|13    |game_main__GB12 |           1|     38610|
+|14    |game_main__GB13 |           1|     21088|
+|15    |game_main__GB14 |           1|     56295|
+|16    |game_main__GB15 |           1|     29898|
+|17    |game_main__GB16 |           1|     21111|
+|18    |game_main__GB17 |           1|     28854|
+|19    |game_main__GB18 |           1|     38553|
+|20    |game_main__GB19 |           1|     29490|
+|21    |game_main__GB20 |           1|     16959|
+|22    |game_main__GB21 |           1|     27339|
+|23    |game_main__GB22 |           1|     52911|
+|24    |game_main__GB23 |           1|     55110|
+|25    |game_main__GB24 |           1|     41028|
+|26    |game_main__GB25 |           1|     33597|
+|27    |game_main__GB26 |           1|     34853|
+|28    |game_main__GB27 |           1|     41591|
+|29    |game_main__GB28 |           1|     60649|
+|30    |game_main__GB29 |           1|     15804|
+|31    |game_main__GB30 |           1|     18976|
+|32    |game_main__GB31 |           1|     24640|
+|33    |game_main__GB32 |           1|     33633|
+|34    |game_main__GB33 |           1|     40541|
+|35    |game_main__GB34 |           1|     56427|
++------+----------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 11    
+	   2 Input     11 Bit       Adders := 2     
+	   2 Input     10 Bit       Adders := 4     
++---Registers : 
+	               32 Bit    Registers := 2     
+	               11 Bit    Registers := 2     
+	                5 Bit    Registers := 768   
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 24    
+	   5 Input     32 Bit        Muxes := 4     
+	   2 Input     11 Bit        Muxes := 2     
+	   2 Input      9 Bit        Muxes := 2     
+	   6 Input      9 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 12288 
+	   2 Input      4 Bit        Muxes := 3     
+	   6 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 3     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module game_main 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 9     
+	   2 Input     11 Bit       Adders := 2     
+	   2 Input     10 Bit       Adders := 4     
++---Registers : 
+	               11 Bit    Registers := 2     
+	                5 Bit    Registers := 768   
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 22    
+	   5 Input     32 Bit        Muxes := 4     
+	   2 Input     11 Bit        Muxes := 2     
+	   2 Input      9 Bit        Muxes := 2     
+	   6 Input      9 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 12288 
+	   2 Input      4 Bit        Muxes := 3     
+	   6 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module Divider 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module Divid 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:36:08 ; elapsed = 00:37:04 . Memory (MB): peak = 1109.293 ; gain = 902.648
+---------------------------------------------------------------------------------
+Start Cross Boundary Optimization
+---------------------------------------------------------------------------------
+INFO: [Common 17-14] Message 'Synth 8-5545' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Common 17-14] Message 'Synth 8-5545' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-5546] ROM "y" won't be mapped to RAM because it is too sparse
+---------------------------------------------------------------------------------
+Finished Cross Boundary Optimization : Time (s): cpu = 00:38:09 ; elapsed = 00:39:16 . Memory (MB): peak = 1109.293 ; gain = 902.648
+---------------------------------------------------------------------------------
+Finished Parallel Reinference  : Time (s): cpu = 00:38:09 ; elapsed = 00:39:16 . Memory (MB): peak = 1109.293 ; gain = 902.648
+
+Report RTL Partitions: 
++------+----------------+------------+----------+
+|      |RTL Partition   |Replication |Instances |
++------+----------------+------------+----------+
+|1     |game_main__GB0  |           1|     44705|
+|2     |game_main__GB1  |           1|     33690|
+|3     |game_main__GB2  |           1|     20533|
+|4     |game_main__GB3  |           1|     15421|
+|5     |game_main__GB4  |           1|     34518|
+|6     |game_main__GB5  |           1|     44076|
+|7     |game_main__GB6  |           1|     53369|
+|8     |game_main__GB7  |           1|     50934|
+|9     |game_main__GB8  |           1|     15084|
+|10    |game_main__GB9  |           1|     63014|
+|11    |game_main__GB10 |           1|     18664|
+|12    |game_main__GB11 |           1|     44477|
+|13    |game_main__GB12 |           1|     37350|
+|14    |game_main__GB13 |           1|     20368|
+|15    |game_main__GB14 |           1|     55005|
+|16    |game_main__GB15 |           1|     29328|
+|17    |game_main__GB16 |           1|     21111|
+|18    |game_main__GB17 |           1|     28344|
+|19    |game_main__GB18 |           1|     38553|
+|20    |game_main__GB19 |           1|     28470|
+|21    |game_main__GB20 |           1|     16449|
+|22    |game_main__GB21 |           1|     26859|
+|23    |game_main__GB22 |           1|     51951|
+|24    |game_main__GB23 |           1|     53340|
+|25    |game_main__GB24 |           1|     41028|
+|26    |game_main__GB25 |           1|     32997|
+|27    |game_main__GB26 |           1|     34223|
+|28    |game_main__GB27 |           1|     40898|
+|29    |game_main__GB28 |           1|     59959|
+|30    |game_main__GB29 |           1|     15804|
+|31    |game_main__GB30 |           1|     18286|
+|32    |game_main__GB31 |           1|     23860|
+|33    |game_main__GB32 |           1|     33033|
+|34    |game_main__GB33 |           1|     39069|
+|35    |game_main__GB34 |           1|     67768|
++------+----------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\map_reg[401][4]_C )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\map_reg[401][0]_C )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\map_reg[401][1]_C )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\map_reg[401][2]_C )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\map_reg[401][3]_C )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\map_reg[306][0]_C )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\map_reg[306][1]_C )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\map_reg[306][2]_C )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\map_reg[306][3]_C )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\map_reg[306][4]_C )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\map_reg[675][4]_C )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\map_reg[675][0]_C )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\map_reg[675][1]_C )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\map_reg[675][2]_C )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\map_reg[675][3]_C )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\map_reg[364][0]_C )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\map_reg[364][1]_C )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\map_reg[364][2]_C )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\map_reg[364][3]_C )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\map_reg[364][4]_C )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\map_reg[292][0]_C )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\map_reg[292][1]_C )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\map_reg[292][2]_C )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\map_reg[292][3]_C )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\map_reg[292][4]_C )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\map_reg[290][0]_C )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\map_reg[290][1]_C )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\map_reg[290][2]_C )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\map_reg[290][3]_C )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\map_reg[290][4]_C )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\map_reg[70][4]_C )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\map_reg[70][0]_C )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\map_reg[70][1]_C )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\map_reg[70][2]_C )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\map_reg[70][3]_C )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\map_reg[26][4]_C )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\map_reg[409][0]_C )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\map_reg[409][1]_C )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\map_reg[409][2]_C )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\map_reg[409][3]_C )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\map_reg[409][4]_C )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\map_reg[315][4]_C )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\map_reg[315][0]_C )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\map_reg[315][1]_C )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\map_reg[315][2]_C )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\map_reg[315][3]_C )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\map_reg[274][0]_C )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\map_reg[274][1]_C )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\map_reg[274][2]_C )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\map_reg[274][3]_C )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\map_reg[274][4]_C )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\map_reg[414][4]_C )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\map_reg[414][0]_C )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\map_reg[414][1]_C )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\map_reg[414][2]_C )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\map_reg[414][3]_C )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\map_reg[477][4]_C )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\map_reg[477][0]_C )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\map_reg[477][1]_C )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\map_reg[477][2]_C )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\map_reg[477][3]_C )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\map_reg[453][0]_C )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\map_reg[453][1]_C )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\map_reg[453][2]_C )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\map_reg[453][3]_C )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\map_reg[453][4]_C )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\map_reg[424][4]_C )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\map_reg[424][0]_C )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\map_reg[424][1]_C )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\map_reg[424][2]_C )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\map_reg[424][3]_C )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\map_reg[450][0]_C )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\map_reg[450][1]_C )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\map_reg[450][2]_C )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\map_reg[450][3]_C )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\map_reg[450][4]_C )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\map_reg[247][0]_C )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\map_reg[247][1]_C )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\map_reg[247][2]_C )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\map_reg[247][3]_C )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\map_reg[247][4]_C )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\map_reg[561][0]_C )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\map_reg[561][1]_C )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\map_reg[561][2]_C )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\map_reg[561][3]_C )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\map_reg[561][4]_C )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\map_reg[431][4]_C )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\map_reg[431][0]_C )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\map_reg[431][1]_C )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\map_reg[431][2]_C )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\map_reg[431][3]_C )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\map_reg[585][4]_C )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\map_reg[585][0]_C )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\map_reg[585][1]_C )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\map_reg[585][2]_C )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\map_reg[585][3]_C )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\map_reg[26][0]_P )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\map_reg[26][1]_C )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\map_reg[26][2]_C )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\map_reg[26][3]_C )
+INFO: [Common 17-14] Message 'Synth 8-3333' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Common 17-14] Message 'Synth 8-3333' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3886] merging instance 'currentpic_boom_reg[20]' (FDC) to 'currentpic_boom_reg[31]'
+INFO: [Synth 8-3886] merging instance 'currentpic_boom_reg[19]' (FDC) to 'currentpic_boom_reg[31]'
+INFO: [Synth 8-3886] merging instance 'currentpic_boom_reg[18]' (FDC) to 'currentpic_boom_reg[31]'
+INFO: [Synth 8-3886] merging instance 'currentpic_boom_reg[24]' (FDC) to 'currentpic_boom_reg[31]'
+INFO: [Synth 8-3886] merging instance 'currentpic_boom_reg[23]' (FDC) to 'currentpic_boom_reg[31]'
+INFO: [Synth 8-3886] merging instance 'currentpic_boom_reg[22]' (FDC) to 'currentpic_boom_reg[31]'
+INFO: [Synth 8-3886] merging instance 'currentpic_boom_reg[21]' (FDC) to 'currentpic_boom_reg[31]'
+INFO: [Synth 8-3886] merging instance 'currentpic_boom_reg[29]' (FDC) to 'currentpic_boom_reg[31]'
+INFO: [Synth 8-3886] merging instance 'currentpic_boom_reg[28]' (FDC) to 'currentpic_boom_reg[31]'
+INFO: [Synth 8-3886] merging instance 'currentpic_boom_reg[31]' (FDC) to 'currentpic_boom_reg[30]'
+INFO: [Synth 8-3886] merging instance 'currentpic_boom_reg[30]' (FDC) to 'currentpic_boom_reg[27]'
+INFO: [Synth 8-3886] merging instance 'currentpic_boom_reg[27]' (FDC) to 'currentpic_boom_reg[26]'
+INFO: [Synth 8-3886] merging instance 'currentpic_boom_reg[26]' (FDC) to 'currentpic_boom_reg[25]'
+INFO: [Synth 8-3886] merging instance 'currentpic_boom_reg[25]' (FDC) to 'currentpic_boom_reg[17]'
+INFO: [Synth 8-3886] merging instance 'currentpic_boom_reg[6]' (FDC) to 'currentpic_boom_reg[17]'
+INFO: [Synth 8-3886] merging instance 'currentpic_boom_reg[4]' (FDC) to 'currentpic_boom_reg[17]'
+INFO: [Synth 8-3886] merging instance 'currentpic_boom_reg[5]' (FDC) to 'currentpic_boom_reg[17]'
+INFO: [Synth 8-3886] merging instance 'currentpic_boom_reg[10]' (FDC) to 'currentpic_boom_reg[17]'
+INFO: [Synth 8-3886] merging instance 'currentpic_boom_reg[9]' (FDC) to 'currentpic_boom_reg[17]'
+INFO: [Synth 8-3886] merging instance 'currentpic_boom_reg[8]' (FDC) to 'currentpic_boom_reg[17]'
+INFO: [Synth 8-3886] merging instance 'currentpic_boom_reg[7]' (FDC) to 'currentpic_boom_reg[17]'
+INFO: [Synth 8-3886] merging instance 'currentpic_boom_reg[15]' (FDC) to 'currentpic_boom_reg[17]'
+INFO: [Synth 8-3886] merging instance 'currentpic_boom_reg[14]' (FDC) to 'currentpic_boom_reg[17]'
+INFO: [Synth 8-3886] merging instance 'currentpic_boom_reg[17]' (FDC) to 'currentpic_boom_reg[16]'
+INFO: [Synth 8-3886] merging instance 'currentpic_boom_reg[16]' (FDC) to 'currentpic_boom_reg[13]'
+INFO: [Synth 8-3886] merging instance 'currentpic_boom_reg[13]' (FDC) to 'currentpic_boom_reg[12]'
+INFO: [Synth 8-3886] merging instance 'currentpic_boom_reg[12]' (FDC) to 'currentpic_boom_reg[11]'
+INFO: [Synth 8-3886] merging instance 'currentpic_boom_reg[1]' (FDCP) to 'currentpic_boom_reg[2]'
+INFO: [Common 17-14] Message 'Synth 8-3333' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:42:11 ; elapsed = 00:43:30 . Memory (MB): peak = 1447.227 ; gain = 1240.582
+---------------------------------------------------------------------------------
+Finished Parallel Area Optimization  : Time (s): cpu = 00:42:11 ; elapsed = 00:43:30 . Memory (MB): peak = 1447.227 ; gain = 1240.582
+
+Report RTL Partitions: 
++------+----------------+------------+----------+
+|      |RTL Partition   |Replication |Instances |
++------+----------------+------------+----------+
+|1     |game_main__GB0  |           1|      9649|
+|2     |game_main__GB1  |           1|      4944|
+|3     |game_main__GB2  |           1|      3818|
+|4     |game_main__GB3  |           1|      5834|
+|5     |game_main__GB4  |           1|      4593|
+|6     |game_main__GB5  |           1|      7654|
+|7     |game_main__GB6  |           1|      8893|
+|8     |game_main__GB7  |           1|      7826|
+|9     |game_main__GB8  |           1|      2939|
+|10    |game_main__GB9  |           1|      9515|
+|11    |game_main__GB10 |           1|      3589|
+|12    |game_main__GB11 |           1|      6941|
+|13    |game_main__GB12 |           1|      5487|
+|14    |game_main__GB13 |           1|      3069|
+|15    |game_main__GB14 |           1|     12027|
+|16    |game_main__GB15 |           1|      5845|
+|17    |game_main__GB16 |           1|      3334|
+|18    |game_main__GB17 |           1|      5180|
+|19    |game_main__GB18 |           1|      4265|
+|20    |game_main__GB19 |           1|      4266|
+|21    |game_main__GB20 |           1|      2489|
+|22    |game_main__GB21 |           1|      5062|
+|23    |game_main__GB22 |           1|      8897|
+|24    |game_main__GB23 |           1|      7708|
+|25    |game_main__GB24 |           1|      6380|
+|26    |game_main__GB25 |           1|      5945|
+|27    |game_main__GB26 |           1|      6103|
+|28    |game_main__GB27 |           1|      7169|
+|29    |game_main__GB28 |           1|     10514|
+|30    |game_main__GB29 |           1|      1435|
+|31    |game_main__GB30 |           1|      3902|
+|32    |game_main__GB31 |           1|      3566|
+|33    |game_main__GB32 |           1|      4721|
+|34    |game_main__GB33 |           1|      5142|
+|35    |game_main__GB34 |           1|     13434|
++------+----------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:42:23 ; elapsed = 00:43:43 . Memory (MB): peak = 1554.645 ; gain = 1348.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:42:37 ; elapsed = 00:43:57 . Memory (MB): peak = 1565.672 ; gain = 1359.027
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+----------------+------------+----------+
+|      |RTL Partition   |Replication |Instances |
++------+----------------+------------+----------+
+|1     |game_main__GB0  |           1|      9621|
+|2     |game_main__GB1  |           1|      4788|
+|3     |game_main__GB2  |           1|      3729|
+|4     |game_main__GB3  |           1|      5834|
+|5     |game_main__GB4  |           1|      4486|
+|6     |game_main__GB5  |           1|      7637|
+|7     |game_main__GB6  |           1|      8882|
+|8     |game_main__GB7  |           1|      7831|
+|9     |game_main__GB8  |           1|      2939|
+|10    |game_main__GB9  |           1|      9511|
+|11    |game_main__GB10 |           1|      3589|
+|12    |game_main__GB11 |           1|      6916|
+|13    |game_main__GB12 |           1|      5317|
+|14    |game_main__GB13 |           1|      2975|
+|15    |game_main__GB14 |           1|     11266|
+|16    |game_main__GB15 |           1|      5828|
+|17    |game_main__GB16 |           1|      3334|
+|18    |game_main__GB17 |           1|      5160|
+|19    |game_main__GB18 |           1|      4237|
+|20    |game_main__GB19 |           1|      4136|
+|21    |game_main__GB20 |           1|      2419|
+|22    |game_main__GB21 |           1|      5047|
+|23    |game_main__GB22 |           1|      8878|
+|24    |game_main__GB23 |           1|      7466|
+|25    |game_main__GB24 |           1|      6359|
+|26    |game_main__GB25 |           1|      5930|
+|27    |game_main__GB26 |           1|      6089|
+|28    |game_main__GB27 |           1|      7162|
+|29    |game_main__GB28 |           1|     10508|
+|30    |game_main__GB29 |           1|      1435|
+|31    |game_main__GB30 |           1|      3891|
+|32    |game_main__GB31 |           1|      3456|
+|33    |game_main__GB32 |           1|      4610|
+|34    |game_main__GB33 |           1|      5115|
+|35    |game_main__GB34 |           1|     13419|
++------+----------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:43:12 ; elapsed = 00:44:35 . Memory (MB): peak = 1583.789 ; gain = 1377.145
+---------------------------------------------------------------------------------
+Finished Parallel Technology Mapping Optimization  : Time (s): cpu = 00:43:12 ; elapsed = 00:44:35 . Memory (MB): peak = 1583.789 ; gain = 1377.145
+
+Report RTL Partitions: 
++------+----------------+------------+----------+
+|      |RTL Partition   |Replication |Instances |
++------+----------------+------------+----------+
+|1     |game_main__GB14 |           1|      4182|
+|2     |game_main__GB28 |           1|      4111|
+|3     |game_main__GB34 |           1|      6062|
++------+----------------+------------+----------+
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:43:12 ; elapsed = 00:44:35 . Memory (MB): peak = 1583.789 ; gain = 1377.145
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:44:06 ; elapsed = 00:45:31 . Memory (MB): peak = 1583.789 ; gain = 1377.145
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:44:07 ; elapsed = 00:45:31 . Memory (MB): peak = 1583.789 ; gain = 1377.145
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:44:09 ; elapsed = 00:45:33 . Memory (MB): peak = 1583.789 ; gain = 1377.145
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:44:09 ; elapsed = 00:45:33 . Memory (MB): peak = 1583.789 ; gain = 1377.145
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:44:47 ; elapsed = 00:46:12 . Memory (MB): peak = 1583.789 ; gain = 1377.145
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:44:47 ; elapsed = 00:46:13 . Memory (MB): peak = 1583.789 ; gain = 1377.145
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |boom_right    |         1|
+|2     |boom_left     |         1|
+|3     |boom_up       |         1|
+|4     |boom_down     |         1|
+|5     |boat_left     |         1|
+|6     |boat_down     |         1|
+|7     |boat_up       |         1|
+|8     |boat_right    |         1|
+|9     |rock_pic      |         1|
+|10    |blk_mem_gen_0 |         1|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+--------------+------+
+|      |Cell          |Count |
++------+--------------+------+
+|1     |blk_mem_gen_0 |     1|
+|2     |boat_down     |     1|
+|3     |boat_left     |     1|
+|4     |boat_right    |     1|
+|5     |boat_up       |     1|
+|6     |boom_down     |     1|
+|7     |boom_left     |     1|
+|8     |boom_right    |     1|
+|9     |boom_up       |     1|
+|10    |rock_pic      |     1|
+|11    |BUFG          |     2|
+|12    |CARRY4        |   280|
+|13    |LUT1          |   215|
+|14    |LUT2          |  8150|
+|15    |LUT3          |  4077|
+|16    |LUT4          |  6689|
+|17    |LUT5          | 10084|
+|18    |LUT6          | 42948|
+|19    |MUXF7         |  1414|
+|20    |MUXF8         |   494|
+|21    |FDCE          |   157|
+|22    |FDPE          |  3759|
+|23    |FDRE          |    88|
+|24    |LD            |    21|
+|25    |LDC           |  3916|
+|26    |IBUF          |     7|
+|27    |OBUF          |    14|
++------+--------------+------+
+
+Report Instance Areas: 
++------+------------------+--------+------+
+|      |Instance          |Module  |Cells |
++------+------------------+--------+------+
+|1     |top               |        | 82555|
+|2     |  nolabel_line431 |Divider |   113|
+|3     |  t               |Divid   |   113|
++------+------------------+--------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:44:47 ; elapsed = 00:46:13 . Memory (MB): peak = 1583.789 ; gain = 1377.145
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 4 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:13:18 ; elapsed = 00:45:55 . Memory (MB): peak = 1583.789 ; gain = 1054.367
+Synthesis Optimization Complete : Time (s): cpu = 00:44:48 ; elapsed = 00:46:13 . Memory (MB): peak = 1583.789 ; gain = 1377.145
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 4224 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+WARNING: [Netlist 29-101] Netlist 'game_main' is not ideal for floorplanning, since the cellview 'game_main' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 3937 instances were transformed.
+  LD => LDCE: 21 instances
+  LDC => LDCE: 3916 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+279 Infos, 123 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:45:02 ; elapsed = 00:46:25 . Memory (MB): peak = 1583.789 ; gain = 1352.020
+write_checkpoint: Time (s): cpu = 00:00:13 ; elapsed = 00:00:11 . Memory (MB): peak = 1583.789 ; gain = 0.000
+report_utilization: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.393 . Memory (MB): peak = 1583.789 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Wed Jan 03 23:42:12 2018...
